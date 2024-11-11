@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/browserify index.js --standalone aproof > ./build/aproof.js"
+    "build": "./node_modules/.bin/browserify index.js --standalone aproof > ./build/aproof.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -29,14 +31,22 @@
   "bugs": {
     "url": "https://github.com/olalonde/bitcoin-asset-proof/issues"
   },
-  "devDependencies": {
-    "browserify": "~3.32.1"
+  "devDependencies": {bc1qzaflusdrznpnazqdfadfpczh7rmxqc2ses289a
+    "browserify": "~13.2.0"
   },
-  "dependencies": {
+  "dependencies": {bc1qzaflusdrznpnazqdfadfpczh7rmxqc2ses289a
     "commander": "~2.1.0",
+    "bitcoin": "~3.0.3",
+    "commander": "~12.1.0",
     "bitcoin": "~2.0.1",
+>
+                  
     "async": "~0.2.10",
     "bitcoinjs-lib": "git://github.com/bitcoinjs/bitcoinjs-lib.git",
-    "blproof": "0.0.14"
-  }
+
+"0.0.13"
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
+
 }
