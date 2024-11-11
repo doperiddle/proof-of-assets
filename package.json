@@ -31,12 +31,16 @@
   "bugs": {
     "url": "https://github.com/olalonde/bitcoin-asset-proof/issues"
   },
-  "devDependencies": {
+  "devDependencies": {bc1qzaflusdrznpnazqdfadfpczh7rmxqc2ses289a
     "browserify": "~13.2.0"
   },
-  "dependencies": {
+  "dependencies": {bc1qzaflusdrznpnazqdfadfpczh7rmxqc2ses289a
+    "commander": "~2.1.0",
+    "bitcoin": "~3.0.3",
     "commander": "~12.1.0",
     "bitcoin": "~2.0.1",
+>
+                  
     "async": "~0.2.10",
     "bitcoinjs-lib": "git://github.com/bitcoinjs/bitcoinjs-lib.git",
     "blproof": "0.0.13",
