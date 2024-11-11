@@ -43,8 +43,10 @@
                   
     "async": "~0.2.10",
     "bitcoinjs-lib": "git://github.com/bitcoinjs/bitcoinjs-lib.git",
-    "blproof": "0.0.13",
+
+"0.0.13"
     "@snyk/protect": "latest"
   },
   "snyk": true
+
 }
