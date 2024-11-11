@@ -39,9 +39,9 @@
     "bitcoin": "~3.0.3",
     "commander": "~12.1.0",
     "bitcoin": "~2.0.1",
->
                   
     "async": "~0.2.10",
+>>
     "bitcoinjs-lib": "git://github.com/bitcoinjs/bitcoinjs-lib.git",
 
 "0.0.13"
