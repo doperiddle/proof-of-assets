@@ -35,7 +35,7 @@
     "browserify": "~13.2.0"
   },
   "dependencies": {
-    "commander": "~2.1.0",
+    "commander": "~12.1.0",
     "bitcoin": "~2.0.1",
     "async": "~0.2.10",
     "bitcoinjs-lib": "git://github.com/bitcoinjs/bitcoinjs-lib.git",
